@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#14222a">
+<title>For Knox</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="stage">
+
+  <header class="title">
+    <h1>Knox</h1>
+    <p>You have a letter.</p>
+  </header>
+
+  <div class="rig" id="rig">
+    <div class="part back"></div>
+
+    <article class="letter" id="letter" tabindex="-1" aria-hidden="true">
+      <div class="letter-inner">
+        <p class="rv hello" style="--d:0">Happy birthday, Knox.</p>
+        <p class="rv" style="--d:.6">You make ambition look easy. Keep going after the things you want, keep becoming who you are working to be, and don't let anyone talk you into thinking smaller.</p>
+        <p class="rv" style="--d:1.4">I hope this year gives you more reasons to be proud of yourself.</p>
+        <p class="rv sign" style="--d:2.2">Happy birthday again.</p>
+        <figure class="rv photo" id="photo" style="--d:3" hidden>
+          <img src="assets/knox.jpg" alt="Knox">
+        </figure>
+      </div>
+    </article>
+
+    <div class="part front">
+      <i class="p-left"></i><i class="p-right"></i><i class="p-bottom"></i>
+    </div>
+    <div class="part addr">
+      <span class="addr-to">For Knox</span>
+      <span class="addr-full">Knoxforda Ayodele Glynis Nicol</span>
+    </div>
+
+    <div class="part flapwrap">
+      <div class="flap">
+        <i class="face out"></i>
+        <i class="face in"></i>
+      </div>
+    </div>
+
+    <div class="seal" aria-hidden="true"><span>K</span></div>
+
+    <button class="env-btn" id="open" type="button" aria-label="Open the letter for Knox"></button>
+  </div>
+
+  <p class="hint" id="hint">Open it</p>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
